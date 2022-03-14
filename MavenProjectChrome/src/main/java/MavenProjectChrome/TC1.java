@@ -25,7 +25,7 @@ public class TC1 {
 		WebElement loginbtn1 = driver.findElement(By.xpath("(//button)[5]"));
 		loginbtn1.click();
 		
-		//3. Maxzimize current window
+		//3. Maxzimize current window;
 		
 		driver.manage().window().maximize();
 		
